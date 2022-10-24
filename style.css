@@ -69,7 +69,7 @@ nav>a:not(:first-of-type) {
 }
 
 nav>a.logo {
-  margin-right: auto;
+  margin-right: 0px;
   text-transform: uppercase;
 }
 
@@ -110,7 +110,7 @@ section.hero>button {
 }
 
 main article {
-  padding: 48px 96px;
+  padding: 0px;
 }
 
 main p {
