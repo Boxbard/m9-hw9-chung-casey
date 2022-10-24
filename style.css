@@ -160,4 +160,12 @@ footer {
     left: 50%;
     transform: translate(-50%, -5%);
   }
+
+  main>section,
+  main>article {
+    margin-bottom: 0px;
+    margin-top: 0px;
+    box-shadow: 4px 4px 10px var(--gray);
+    background-color: var(--white);
+  }
 }
