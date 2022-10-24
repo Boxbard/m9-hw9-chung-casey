@@ -143,4 +143,10 @@ footer {
     align-items: center;
     justify-content: center;
   }
+
+  section.hero>.call-to-action {
+    font-size: 1.75rem;
+    font-weight: 500px;
+    padding: 80px;
+  }
 }
