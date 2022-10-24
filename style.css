@@ -143,8 +143,21 @@ footer {
     align-items: center;
     justify-content: center;
   }
-  section.hero>.call-to-action{
+
+  nav>a:not(:first-of-type) {
+    margin-left: 0px;
+  }
+
+  section.hero>.call-to-action {
     font-size: 1.75rem;
     padding: 0 100px;
+  }
+
+  main>article img {
+    float: none;
+    display: block;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, -5%);
   }
 }
